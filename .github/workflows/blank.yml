@@ -21,8 +21,10 @@ jobs:
     steps:
       - name: Show git version
         run: git --version
-      - name: Show python version
+      - name: Show python installation
         run: py -0p
+      - name: Show python version
+        run: py --version
       - name: Show PowerShell version
         run: $PSversiontable 
   build:
