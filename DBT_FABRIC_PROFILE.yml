@@ -1,0 +1,12 @@
+my_fabric_project:
+  target: dev
+  outputs:
+    dev:
+      type: fabric
+      client_id: your-client-id
+      client_secret: your-client-secret
+      tenant_id: your-tenant-id
+      workspace_id: your-workspace-guid
+      lakehouse_id: your-lakehouse-guid
+      schema: dbo
+      threads: 2

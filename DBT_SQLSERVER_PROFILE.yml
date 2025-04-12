@@ -1,0 +1,14 @@
+my_sqlserver_project:
+  target: dev
+  outputs:
+    dev:
+      type: sqlserver
+      driver: 'ODBC Driver 18 for SQL Server'
+      server: your-sql-server-name
+      port: 1433
+      database: your_db
+      schema: dbt_schema
+      user: your_user
+      password: your_password
+      threads: 2
+      trust_cert: true
