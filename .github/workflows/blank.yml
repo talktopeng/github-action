@@ -22,7 +22,7 @@ jobs:
       - name: Show git version
         run: git --version
       - name: Show python version
-        run: python --version
+        run: py -0p
       - name: Show PowerShell version
         run: $PSversiontable 
   build:
